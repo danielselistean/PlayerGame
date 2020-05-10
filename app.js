@@ -35,12 +35,12 @@ class Player {
                 console.log('arrow down', this.div.style.top);
 
                  // logica de miscare in sus - fara a iesi din container
-            } else if (event.keyCode === 38 && oldTop >= 20){ // key up
+            } else if (event.keyCode === 38 && oldTop >= minTop){ // key up
                 this.div.style.top = `${oldTop - 20}px`;
                 console.log('arrow up', this.div.style.top);
 
                 // logica de miscare in stanga - fara a iesi din container
-            } else if (event.keyCode === 37 && oldLeft >= 20) { // key left
+            } else if (event.keyCode === 37 && oldLeft >= minLeft) { // key left
                 this.div.style.left = `${oldLeft - 20}px`;
                 console.log('arrow left', this.div.style.left);
 
