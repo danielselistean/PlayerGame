@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 600px;
+    width:600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameContainer {
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+    position: relative;
+    border: 0.1px solid black;
+}
+
+#startGame{
+    margin: 0 20px ;
+    color: white;
+    background-color: green;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
